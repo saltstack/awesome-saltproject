@@ -6,8 +6,8 @@
 # Awesome Salt Project
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://github.com/scriptautomate/awesome-saltproject/blob/main/LICENSE)
-[![lint](https://github.com/scriptautomate/awesome-saltproject/actions/workflows/lint.yaml/badge.svg)](https://github.com/scriptautomate/awesome-saltproject/actions/workflows/lint.yaml)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://github.com/saltstack/awesome-saltproject/blob/main/LICENSE)
+[![lint](https://github.com/saltstack/awesome-saltproject/actions/workflows/lint.yaml/badge.svg)](https://github.com/saltstack/awesome-saltproject/actions/workflows/lint.yaml)
 
 <!-- subtitle -->
 
