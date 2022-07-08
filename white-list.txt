@@ -1,0 +1,1 @@
+https://www.vmware.com/products/vrealize-automation/saltstack-config.html,https://www.vmware.com/company/acquisitions/saltstack.html
