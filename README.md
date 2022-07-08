@@ -40,7 +40,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 
 ## Contents
 
-> **NOTE: A bookmark file is available with all of these links, ready for import into your web browser. Download the `awesome-saltproject-bookmarks.html` file from the root of this repo!**
+> **NOTE: A bookmark file is available with all of these links, ready for import into your web browser. Download the `bookmarks/awesome-saltproject-bookmarks.html` file from the root of this repo!**
 
 - [Official Resources](#official-resources)
 - [Related Documentation](#related-documentation)
