@@ -3,7 +3,6 @@
 <!-- title -->
 
 <!--lint ignore no-dead-urls-->
-<!--lint ignore awesome-git-repo-age-->
 # Awesome Salt Project
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
