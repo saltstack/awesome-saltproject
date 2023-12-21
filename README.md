@@ -69,11 +69,12 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Salt Project Reference Documentation](https://docs.saltproject.io/en/latest/contents.html) - Official home page of reference documentation.
 - [Salt Project Package Repository](https://repo.saltproject.io/) - Where `salt` packages are officially stored and distributed.
 <!--lint ignore double-link-->
-- [vRealize Automation SaltStack Config](https://www.vmware.com/products/vrealize-automation/saltstack-config.html) - vRealize Automation SaltStack Config website at VMware (new name for commercial SaltStack product).
+- [VMware Aria Automation Config](https://www.vmware.com/ca/products/aria-automation/saltstack-config.html) - Aria Automation Config website at VMware (new name for commercial SaltStack product).
+
 
 ## Related Documentation
 
-- [Jinja2 documentation](http://jinja.pocoo.org/docs/latest/) - This official documentation covers the used templating language in Salt.
+- [Jinja2 documentation](https://jinja.palletsprojects.com/en/3.1.x/) - This official documentation covers the used templating language in Salt.
 
 ## Tutorials
 
@@ -139,6 +140,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [SaltConf18 - YouTube](https://www.youtube.com/playlist?list=PL9svBjLDUl_-wsL5HZqtTuvV80Y6dqmQE) - Video recordings of SaltConf18 presentations.
 - [SaltConf19 - YouTube](https://www.youtube.com/playlist?list=PL9svBjLDUl_8E03aA45ZncgwTrI96ky2m) - Video recordings of SaltConf19 presentations.
 - [SaltConf20 - YouTube](https://www.youtube.com/playlist?list=PL9svBjLDUl__frIm2HOGPm1GrcVQkOZTe) - Video recordings of SaltConf20 presentations.
+- [SaltConf21 - YouTube](https://www.youtube.com/playlist?list=PL9svBjLDUl_8j1hNjel7kZL3Ql4LMPOAG) - Video recordings of SaltConf21 presentations.
 
 ## Tools
 
@@ -156,7 +158,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Getting Started with SaltStack](https://speakerdeck.com/pycon2014/getting-started-with-saltstack-by-peter-baumgartner) - By Peter Baumgartner.
 - [An introduction to infrastructure management with SaltStack](https://www.slideshare.net/saltstack/an-overvisaltstack-presentation-clean) - By Aurelien Geron.
 - [Saltpad: A SaltStack Web GUI](https://speakerdeck.com/lothiraldan/saltpad-a-saltstack-web-gui) - By Boris Feld.
-- [Intro to SaltStack](http://www.justincarmony.com/slides/salt-tutorial/) - By Justin Carmony.
+- [Intro to SaltStack](https://justincarmony.github.io/slides/salt-intro/) - By Justin Carmony.
 - [salt-deconstructed](http://salt-decon.carson-anderson.com/) - Video and presentation (slides & PDF) by Carson Anderson.
 
 ## Blogposts and opinions
@@ -164,10 +166,8 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Docker with SaltStack](https://opsnotice.xyz/docker-with-saltstack/) - How-to use SaltStack on a virtual cloud server based on Debian or Ubuntu.
 - [One week of Salt: frustrations and reflections](https://stevebennett.me/2014/02/17/one-week-of-salt-frustrations-and-reflections/) - First hand experiences from a Chef user.
 - [Getting started with SaltStack by example: Automatically Installing nginx](http://bencane.com/2013/09/03/getting-started-with-saltstack-by-example-automatically-installing-nginx/) - A good getting started guide for both Salt master and minions.
-- [SaltStack: Manage entries in unmanaged files with File Blockreplace](http://regilero.github.io/SaltStack/English/2014/01/20/saltstack_step_by_step_file_blockreplace/) - How to use the SaltStack's core `file.blockreplace`.
+- [SaltStack: Manage entries in unmanaged files with File Blockreplace](https://regilero.github.io/english/saltstack/2014/01/20/saltstack_step_by_step_file_blockreplace/) - How to use the SaltStack's core `file.blockreplace`.
 - [SaltStack: Keeping Salt Pillar data encrypted using GPG](http://fabianlee.org/2016/10/18/saltstack-keeping-salt-pillar-data-encrypted-using-gpg/) - On secure encryption/decryption of pillar data.
-- [Secure Pillar in SaltStack with GPG](https://gijs.io/2017/02/28/secure-pillar-data-in-saltstack-with-gpg/) - Encrypting your pillar data can be done with GPG.
-- [Network-Automation with Salt, NAPALM and Kubernetes](http://blog.simonmetzger.de/2018/02/salt-napalm-k8s-network-automation/) - How to manage legacy devices that are not able to install software natively on themselves.
 - [Using Salt like Ansible](https://duncan.codes/2016/05/18/using-salt-like-ansible.html) - How to use Salt in a way similar to Ansible.
 - [Using Salt with reclass](http://www.yet.org/2016/10/reclass/) - Use class inheritance to define nodes roles and avoid duplication.
 - [Text editor plugins for Salt states and YAML/Jinja](https://salt.tips/text-editor-plugins-for-salt-states-and-yaml-jinja/) - Covers plugins for different editors when writing Salt states.
@@ -192,7 +192,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 ## Community
 
 - [Salt IRC chat](https://web.libera.chat/?channels=#salt) - IRC about Salt on Libera Chat.
-- [SaltStack Community Slack](https://saltstackcommunity.slack.com/) - Official SaltStack Slack Community ([Signup Link](https://saltstackcommunity.herokuapp.com)).
+- [SaltStack Community Slack](https://saltstackcommunity.slack.com/) - Official SaltStack Slack Community ([Signup Link](https://via.vmw.com/salt-slack)).
 <!--lint ignore double-link-->
 - [SaltStack on Reddit](https://www.reddit.com/r/saltstack/) - SaltStack subreddit.
 - [#saltstack on Network to Code Slack](https://networktocode.slack.com/archives/C0NL8RRMX) - #saltstack channel on Network To Code Slack ([Signup Link](https://networktocode.herokuapp.com/)).
@@ -200,7 +200,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Twitter feed](https://twitter.com/Salt_Project_OS) - Official Salt Project Twitter account.
 - [Mailing list](https://groups.google.com/forum/#!forum/salt-users) - Salt-users mailinglist on Google Groups.
 - [SaltStack Meetups](https://www.meetup.com/pro/saltstack/) - Worldwide Meetup groups.
-- [SaltConf](https://saltconf.com/) - Annual user conference for SaltStack customers, users, partners, developers and community members.
+- [Salt Project User Group Meetups (SPUGM)](http://spugm.com/) - US-focused meetups.
 - [Facebook](https://www.facebook.com/SaltProjectOSS/) - Official Salt Project Facebook account.
 
 ## Formulas
