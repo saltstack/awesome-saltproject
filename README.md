@@ -30,7 +30,7 @@ A collaborative curated list of awesome Salt Project resources, tutorials and ot
 [![Salt Project on Twitch](https://img.shields.io/twitch/status/saltprojectoss)](https://www.twitch.tv/saltprojectoss)
 
 <!--lint ignore double-link-->
-Built on python, **Salt** uses simple and human-readable YAML combined with event-driven automation to deploy and configure complex IT systems. In addition to leveling-up [vRealize Automation SaltStack Config](https://www.vmware.com/products/vrealize-automation/saltstack-config.html), Salt can be found under the hood of products from Juniper, Cisco, Cloudflare, Nutanix, SUSE, and Tieto, to name a few.
+Built on python, **Salt** uses simple and human-readable YAML combined with event-driven automation to deploy and configure complex IT systems. In addition to leveling-up [Aria Automation Config](https://www.vmware.com/products/aria-automation/saltstack-config.html), Salt can be found under the hood of products from Juniper, Cisco, Cloudflare, Nutanix, SUSE, and Tieto, to name a few.
 
 [SaltStack, the company, was acquired by VMware in 2020](https://www.vmware.com/company/acquisitions/saltstack.html). Salt Project remains an open source ecosystem that VMware supports and contributes to.
 
@@ -69,7 +69,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Salt Project Reference Documentation](https://docs.saltproject.io/en/latest/contents.html) - Official home page of reference documentation.
 - [Salt Project Package Repository](https://repo.saltproject.io/) - Where `salt` packages are officially stored and distributed.
 <!--lint ignore double-link-->
-- [VMware Aria Automation Config](https://www.vmware.com/ca/products/aria-automation/saltstack-config.html) - Aria Automation Config website at VMware (new name for commercial SaltStack product).
+- [VMware Aria Automation Config](https://www.vmware.com/products/aria-automation/saltstack-config.html) - Aria Automation Config website at VMware (new name for commercial SaltStack product).
 
 
 ## Related Documentation
