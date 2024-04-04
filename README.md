@@ -192,7 +192,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 ## Community
 
 - [Salt IRC chat](https://web.libera.chat/?channels=#salt) - IRC about Salt on Libera Chat.
-- [Salt Project Community Discord Server](https://discord.gg/YVQamSwV3g)) - Official Salt Project Community Discord Server (Replaces Official SaltStack Slack Community)
+- [Salt Project Community Discord Server](https://discord.gg/YVQamSwV3g) - Official Salt Project Community Discord Server (Replaces Official SaltStack Slack Community)
 <!--lint ignore double-link-->
 - [SaltStack on Reddit](https://www.reddit.com/r/saltstack/) - SaltStack subreddit.
 - [#saltstack on Network to Code Slack](https://networktocode.slack.com/archives/C0NL8RRMX) - #saltstack channel on Network To Code Slack ([Signup Link](https://networktocode.herokuapp.com/)).
