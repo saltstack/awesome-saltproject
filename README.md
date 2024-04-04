@@ -152,6 +152,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [salt-lint](https://github.com/warpnet/salt-lint/) - Checks Salt state files (SLS) for practices and behavior that could potentially be improved.
 - [Alcali](https://alcali.dev/) - A web based tool for monitoring and administrating Saltstack Salt.
 - [ISalt](https://github.com/mirceaulinic/isalt) - IPython-based command shell for interactive Salt programming.
+- [salt-exporter](https://github.com/kpetremann/salt-exporter) - Salt Prometheus exporter working out of the box without any configuration on Salt side, comes with an event watcher TUI.
 
 ## Presentations
 
