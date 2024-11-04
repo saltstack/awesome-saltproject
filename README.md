@@ -21,18 +21,9 @@ A collaborative curated list of awesome Salt Project resources, tutorials and ot
 
 <!-- description -->
 
-[![Follow SaltStack on Twitter](https://img.shields.io/twitter/follow/Salt_Project_OS?style=social)](https://twitter.com/intent/follow?screen_name=Salt_Project_OS)
-[![Salt Project on YouTube](https://img.shields.io/youtube/channel/subscribers/UCpveTIucFx9ljGelW63-BWg?style=social)](https://link.dendron.so/youtube)
-[![Salt Project on Slack](https://img.shields.io/badge/slack-@saltstackcommunity-blue.svg?logo=slack&color=purple&style=flat-square)](https://join.slack.com/t/saltstackcommunity/shared_invite/zt-3av8jjyf-oBQ2M0vhXOhJpNpRkPWBvg)
-<!--lint ignore double-link-->
-[![Salt Project on Reddit](https://img.shields.io/reddit/subreddit-subscribers/saltstack?style=social)](https://www.reddit.com/r/saltstack/)
-<!--lint ignore double-link-->
-[![Salt Project on Twitch](https://img.shields.io/twitch/status/saltprojectoss)](https://www.twitch.tv/saltprojectoss)
+Built on python, **Salt** uses simple and human-readable YAML combined with event-driven automation to deploy and configure complex IT systems. In addition to leveling-up [Tanzu Salt](https://www.vmware.com/products/app-platform/tanzu-salt), Salt can be found under the hood of products from Juniper, Cisco, Cloudflare, Nutanix, SUSE, and Tieto, to name a few.
 
-<!--lint ignore double-link-->
-Built on python, **Salt** uses simple and human-readable YAML combined with event-driven automation to deploy and configure complex IT systems. In addition to leveling-up [Aria Automation Config](https://www.vmware.com/products/aria-automation/saltstack-config.html), Salt can be found under the hood of products from Juniper, Cisco, Cloudflare, Nutanix, SUSE, and Tieto, to name a few.
-
-[SaltStack, the company, was acquired by VMware in 2020](https://www.vmware.com/company/acquisitions/saltstack.html). Salt Project remains an open source ecosystem that VMware supports and contributes to.
+[SaltStack, the company, was acquired by VMware in 2020](https://www.vmware.com/company/acquisitions/saltstack.html). VMware was later [acquired by Broadcom in 2023](https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware). Salt Project remains an open source ecosystem that Broadcom supports and contributes to.
 
 </div>
 
@@ -43,6 +34,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 > **NOTE: A bookmark file is available with all of these links, ready for import into your web browser. Download the `bookmarks/awesome-saltproject-bookmarks.html` file from the root of this repo!**
 
 - [Official Resources](#official-resources)
+  - [Salt Project Package Repositories](#salt-project-package-repositories)
 - [Related Documentation](#related-documentation)
 - [Tutorials](#tutorials)
 - [Code](#code)
@@ -64,13 +56,19 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 <!--lint ignore double-link-->
 - [Salt Project site](https://saltproject.io/) - Salt Project (Salt Open Source) website.
 - [`salt` GitHub repo](https://github.com/saltstack/salt) - Salt's source code, issues discussion and collaboration.
-- [Salt Project User Guide](https://docs.saltproject.io/salt/user-guide/en/latest/index.html) - These tutorials walk you through the basics of getting SaltStack up and running.
-- [Salt Project Install Guide](https://docs.saltproject.io/salt/install-guide/en/latest/) - These tutorials walk you through the basics of getting SaltStack up and running.
+- [Salt Project User Guide](https://docs.saltproject.io/salt/user-guide/en/latest/index.html) - These tutorials walk you through the basics of getting Salt Project up and running.
+- [Salt Project Install Guide](https://docs.saltproject.io/salt/install-guide/en/latest/) - These tutorials walk you through the basics of getting Salt Project up and running.
 - [Salt Project Reference Documentation](https://docs.saltproject.io/en/latest/contents.html) - Official home page of reference documentation.
-- [Salt Project Package Repository](https://repo.saltproject.io/) - Where `salt` packages are officially stored and distributed.
 <!--lint ignore double-link-->
-- [VMware Aria Automation Config](https://www.vmware.com/products/aria-automation/saltstack-config.html) - Aria Automation Config website at VMware (new name for commercial SaltStack product).
+- [Tanzu Salt](https://www.vmware.com/products/app-platform/tanzu-salt) - Tanzu Salt website for the Enterprise Salt solution (new name for commercial Salt Project / SaltStack product under VMware by Broadcom).
 
+### Salt Project Package Repositories
+
+> **NOTE: Refer to the [Salt Project Install Guide](https://docs.saltproject.io/salt/install-guide/en/latest/) for information on how to install our packages from these repositories.**
+
+- [Salt Project Repository: Linux (RPM)](https://packages.broadcom.com/artifactory/saltproject-rpm) - Where Salt `rpm` packages are officially stored and distributed.
+- [Salt Project Repository: Linux (DEB)](https://packages.broadcom.com/artifactory/saltproject-rpm) - Where Salt `deb` packages are officially stored and distributed.
+- [Salt Project Repository: Linux (GENERIC)](https://packages.broadcom.com/artifactory/saltproject-rpm) - Where Salt Windows, macOS, etc. (non-rpm, non-deb) packages are officially stored and distributed.
 
 ## Related Documentation
 
@@ -126,9 +124,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 ## Videos
 
 <!--lint ignore awesome-list-item-->
-- [SaltStack](https://www.youtube.com/user/saltstack) - SaltStack's official YouTube channel.
-<!--lint ignore double-link-->
-- [Salt Project on Twitch](https://www.twitch.tv/saltprojectoss) - Salt Project's official Twitch channel.
+- [Salt Project YouTube](https://www.youtube.com/@SaltProject) - Salt Project's official YouTube channel.
 - [Managing Your Infrastructure with SaltStack](https://www.youtube.com/watch?v=y-zQUqMHRX4&t=35s) - PyCon 2015 - April 11, 2015 - Colton Myers.
 - [Testing Salt States with Docker](https://www.youtube.com/watch?v=_xO7wj19OzI) - SaltStack PDX - June 23, 2015 - Jason Denning.
 - [Beyond Configuration Management with SaltStack for Event-Driven Infrastructure](https://www.youtube.com/watch?v=cMCH6EizVVc) - Southern California Linux Expo - January 23, 2016 - David Boucha.
@@ -169,7 +165,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Getting started with SaltStack by example: Automatically Installing nginx](http://bencane.com/2013/09/03/getting-started-with-saltstack-by-example-automatically-installing-nginx/) - A good getting started guide for both Salt master and minions.
 - [SaltStack: Manage entries in unmanaged files with File Blockreplace](https://regilero.github.io/english/saltstack/2014/01/20/saltstack_step_by_step_file_blockreplace/) - How to use the SaltStack's core `file.blockreplace`.
 - [SaltStack: Keeping Salt Pillar data encrypted using GPG](http://fabianlee.org/2016/10/18/saltstack-keeping-salt-pillar-data-encrypted-using-gpg/) - On secure encryption/decryption of pillar data.
-- [Using Salt like Ansible](https://duncan.codes/2016/05/18/using-salt-like-ansible.html) - How to use Salt in a way similar to Ansible.
+- [Using Salt like Ansible](https://www.mac-vicar.eu/posts/2016-05-18-using-salt-like-ansible/index.html) - How to use Salt in a way similar to Ansible.
 - [Using Salt with reclass](http://www.yet.org/2016/10/reclass/) - Use class inheritance to define nodes roles and avoid duplication.
 - [Text editor plugins for Salt states and YAML/Jinja](https://salt.tips/text-editor-plugins-for-salt-states-and-yaml-jinja/) - Covers plugins for different editors when writing Salt states.
 - [Writing a custom Salt Grain](https://blog.badgerops.net/writing-a-custom-salt-grain/) - Writing a custom Salt Grain, and why you might want to.
@@ -196,7 +192,6 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Salt Project Community Discord Server](https://discord.gg/YVQamSwV3g) - Official Salt Project Community Discord Server (Replaces Official SaltStack Slack Community)
 <!--lint ignore double-link-->
 - [SaltStack on Reddit](https://www.reddit.com/r/saltstack/) - SaltStack subreddit.
-- [#saltstack on Network to Code Slack](https://networktocode.slack.com/archives/C0NL8RRMX) - #saltstack channel on Network To Code Slack ([Signup Link](https://networktocode.herokuapp.com/)).
 - [#saltstack on VMware {code} Community Slack](https://vmwarecode.slack.com/archives/C01CASFRWG0) - #saltstack channel on VMware {code} Community Slack ([Signup Link](https://developer.vmware.com/web/code/join)).
 - [Twitter feed](https://twitter.com/Salt_Project_OS) - Official Salt Project Twitter account.
 - [Mailing list](https://groups.google.com/forum/#!forum/salt-users) - Salt-users mailinglist on Google Groups.
