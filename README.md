@@ -165,7 +165,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Getting started with SaltStack by example: Automatically Installing nginx](http://bencane.com/2013/09/03/getting-started-with-saltstack-by-example-automatically-installing-nginx/) - A good getting started guide for both Salt master and minions.
 - [SaltStack: Manage entries in unmanaged files with File Blockreplace](https://regilero.github.io/english/saltstack/2014/01/20/saltstack_step_by_step_file_blockreplace/) - How to use the SaltStack's core `file.blockreplace`.
 - [SaltStack: Keeping Salt Pillar data encrypted using GPG](http://fabianlee.org/2016/10/18/saltstack-keeping-salt-pillar-data-encrypted-using-gpg/) - On secure encryption/decryption of pillar data.
-- [Using Salt like Ansible](https://duncan.codes/2016/05/18/using-salt-like-ansible.html) - How to use Salt in a way similar to Ansible.
+- [Using Salt like Ansible](https://www.mac-vicar.eu/posts/2016-05-18-using-salt-like-ansible/index.html) - How to use Salt in a way similar to Ansible.
 - [Using Salt with reclass](http://www.yet.org/2016/10/reclass/) - Use class inheritance to define nodes roles and avoid duplication.
 - [Text editor plugins for Salt states and YAML/Jinja](https://salt.tips/text-editor-plugins-for-salt-states-and-yaml-jinja/) - Covers plugins for different editors when writing Salt states.
 - [Writing a custom Salt Grain](https://blog.badgerops.net/writing-a-custom-salt-grain/) - Writing a custom Salt Grain, and why you might want to.
@@ -192,7 +192,6 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Salt Project Community Discord Server](https://discord.gg/YVQamSwV3g) - Official Salt Project Community Discord Server (Replaces Official SaltStack Slack Community)
 <!--lint ignore double-link-->
 - [SaltStack on Reddit](https://www.reddit.com/r/saltstack/) - SaltStack subreddit.
-- [#saltstack on Network to Code Slack](https://networktocode.slack.com/archives/C0NL8RRMX) - #saltstack channel on Network To Code Slack ([Signup Link](https://networktocode.herokuapp.com/)).
 - [#saltstack on VMware {code} Community Slack](https://vmwarecode.slack.com/archives/C01CASFRWG0) - #saltstack channel on VMware {code} Community Slack ([Signup Link](https://developer.vmware.com/web/code/join)).
 - [Twitter feed](https://twitter.com/Salt_Project_OS) - Official Salt Project Twitter account.
 - [Mailing list](https://groups.google.com/forum/#!forum/salt-users) - Salt-users mailinglist on Google Groups.
