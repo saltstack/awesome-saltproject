@@ -67,8 +67,8 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 > **NOTE: Refer to the [Salt Project Install Guide](https://docs.saltproject.io/salt/install-guide/en/latest/) for information on how to install our packages from these repositories.**
 
 - [Salt Project Repository: Linux (RPM)](https://packages.broadcom.com/artifactory/saltproject-rpm) - Where Salt `rpm` packages are officially stored and distributed.
-- [Salt Project Repository: Linux (DEB)](https://packages.broadcom.com/artifactory/saltproject-rpm) - Where Salt `deb` packages are officially stored and distributed.
-- [Salt Project Repository: Linux (GENERIC)](https://packages.broadcom.com/artifactory/saltproject-rpm) - Where Salt Windows, macOS, etc. (non-rpm, non-deb) packages are officially stored and distributed.
+- [Salt Project Repository: Linux (DEB)](https://packages.broadcom.com/artifactory/saltproject-deb) - Where Salt `deb` packages are officially stored and distributed.
+- [Salt Project Repository: GENERIC](https://packages.broadcom.com/artifactory/saltproject-generic) - Where Salt Windows, macOS, etc. (non-rpm, non-deb) packages are officially stored and distributed.
 
 ## Related Documentation
 
