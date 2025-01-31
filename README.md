@@ -112,10 +112,10 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [O'Reilly - Network Automation at Scale](https://www.cloudflare.com/network-automation-at-scale-ebook/) - By Mircea Ulinic and Seth House (an ebook sponsored by Cloudflare).
 - [Leanpub - SaltStack For DevOps](https://leanpub.com/saltstackfordevops) - By Aymen El Amri.
 - [Leanpub - Getting Started with SaltStack](https://leanpub.com/gettingstartedwithsaltstack) - By Ben Hosmer.
-- [Packt - Learning SaltStack, 2nd ed.](https://www.packtpub.com/networking-and-servers/learning-saltstack-second-edition) - By Colton Myers.
-- [Packt - Mastering SaltStack, 2nd ed.](https://www.packtpub.com/networking-and-servers/mastering-saltstack-second-edition) - By Joseph Hall.
-- [Packt - Extending SaltStack](https://www.packtpub.com/networking-and-servers/extending-saltstack) - By Joseph Hall.
-- [Packt - Salt Cookbook](https://www.packtpub.com/networking-and-servers/salt-cookbook) - By Anirban Saha.
+- [Packt - Learning SaltStack, 2nd ed.](https://www.packtpub.com/en-us/product/learning-saltstack-9781785882845) - By Colton Myers.
+- [Packt - Mastering SaltStack, 2nd ed.](https://www.packtpub.com/en-us/product/mastering-saltstack-9781786467027) - By Joseph Hall.
+- [Packt - Extending SaltStack](https://www.packtpub.com/en-us/product/extending-saltstack-9781785888168) - By Joseph Hall.
+- [Packt - Salt Cookbook](https://www.packtpub.com/en-us/product/salt-cookbook-9781784397425) - By Anirban Saha.
 
 ## Videos
 
@@ -156,7 +156,6 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 
 ## Blogposts and opinions
 
-- [Docker with SaltStack](https://opsnotice.xyz/docker-with-saltstack/) - How-to use SaltStack on a virtual cloud server based on Debian or Ubuntu.
 - [One week of Salt: frustrations and reflections](https://stevebennett.me/2014/02/17/one-week-of-salt-frustrations-and-reflections/) - First hand experiences from a Chef user.
 - [Getting started with SaltStack by example: Automatically Installing nginx](http://bencane.com/2013/09/03/getting-started-with-saltstack-by-example-automatically-installing-nginx/) - A good getting started guide for both Salt master and minions.
 - [SaltStack: Manage entries in unmanaged files with File Blockreplace](https://regilero.github.io/english/saltstack/2014/01/20/saltstack_step_by_step_file_blockreplace/) - How to use the SaltStack's core `file.blockreplace`.
