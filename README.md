@@ -37,7 +37,6 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
   - [Salt Project Package Repositories](#salt-project-package-repositories)
 - [Related Documentation](#related-documentation)
 - [Tutorials](#tutorials)
-- [Code](#code)
 - [Integrations](#integrations)
 - [Books](#books)
 - [Videos](#videos)
@@ -47,6 +46,7 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Discussions](#discussions)
 - [Community](#community)
 - [Formulas](#formulas)
+- [Extensions](#extensions)
 - [Cheat sheets](#cheat-sheets)
 - [Uncategorized](#uncategorized)
 - [Attic](#attic)
@@ -58,7 +58,8 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [`salt` GitHub repo](https://github.com/saltstack/salt) - Salt's source code, issues discussion and collaboration.
 - [Salt Project User Guide](https://docs.saltproject.io/salt/user-guide/en/latest/index.html) - These tutorials walk you through the basics of getting Salt Project up and running.
 - [Salt Project Install Guide](https://docs.saltproject.io/salt/install-guide/en/latest/) - These tutorials walk you through the basics of getting Salt Project up and running.
-- [Salt Project Reference Documentation](https://docs.saltproject.io/en/latest/contents.html) - Official home page of reference documentation.
+- [Salt Project Reference Documentation Landing](https://docs.saltproject.io/en/latest/contents.html) - Official home page of reference documentation.
+- [Salt Project Core Module Index (Refernce Documentation)](https://docs.saltproject.io/en/latest/py-modindex.html) - Official index of built-in Salt modules.
 <!--lint ignore double-link-->
 - [Tanzu Salt](https://www.vmware.com/products/app-platform/tanzu-salt) - Tanzu Salt website for the Enterprise Salt solution (new name for commercial Salt Project / SaltStack product under VMware by Broadcom).
 
@@ -99,11 +100,6 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [SaltStack - Quick Guide](https://www.tutorialspoint.com/saltstack/saltstack_quick_guide.htm) - Part of the larger "Learn SaltStack"-tutorial at Tutorials Point.
 - [Upgrading Salt to Python 3](https://salt.tips/upgrading-salt-to-python-3/) - How to switch SaltStack from Python2 to Python3.
 - [Salt Guides and Tutorials, by Linode](https://www.linode.com/docs/guides/applications/configuration-management/salt/) - A good collection of Salt guides and tutorials created and managed by Linode.
-
-## Code
-
-- [valentin2105/Kubernetes-Saltstack](https://github.com/valentin2105/Kubernetes-Saltstack) - Saltstack recipe to deploy Kubernetes cluster from scratch.
-- [madflojo/masterless-salt-base](https://github.com/madflojo/masterless-salt-base) - Quickly bootstrap a generic(ish) Ubuntu server. One that is ready to host Docker containers.
 
 ## Integrations
 
@@ -188,16 +184,14 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 
 ## Community
 
-- [Salt IRC chat](https://web.libera.chat/?channels=#salt) - IRC about Salt on Libera Chat.
-- [Salt Project Community Discord Server](https://discord.gg/YVQamSwV3g) - Official Salt Project Community Discord Server (Replaces Official SaltStack Slack Community)
+- [Salt Project Community Discord Server](https://discord.gg/J7b7EscrAs) - Official Salt Project Community Discord Server (Replaces Official SaltStack Slack Community)
 <!--lint ignore double-link-->
 - [SaltStack on Reddit](https://www.reddit.com/r/saltstack/) - SaltStack subreddit.
-- [#saltstack on VMware {code} Community Slack](https://vmwarecode.slack.com/archives/C01CASFRWG0) - #saltstack channel on VMware {code} Community Slack ([Signup Link](https://developer.vmware.com/web/code/join)).
-- [Twitter feed](https://twitter.com/Salt_Project_OS) - Official Salt Project Twitter account.
-- [Mailing list](https://groups.google.com/forum/#!forum/salt-users) - Salt-users mailinglist on Google Groups.
-- [SaltStack Meetups](https://www.meetup.com/pro/saltstack/) - Worldwide Meetup groups.
-- [Salt Project User Group Meetups (SPUGM)](http://spugm.com/) - US-focused meetups.
+- [Twitter](https://twitter.com/Salt_Project_OS) - Official Salt Project Twitter account.
 - [Facebook](https://www.facebook.com/SaltProjectOSS/) - Official Salt Project Facebook account.
+- [Instagram](https://www.instagram.com/saltproject_oss/) - Official Salt Project Instagram account.
+- [Mailing list: salt-users](https://groups.google.com/forum/#!forum/salt-users) - Salt-users mailinglist on Google Groups.
+- [Mailing list: salt-announce](https://groups.google.com/forum/#!forum/salt-announce) - Salt-announce mailinglist on Google Groups.
 
 ## Formulas
 
@@ -206,6 +200,10 @@ Built on python, **Salt** uses simple and human-readable YAML combined with even
 - [Writing SaltStack formulas](http://ryepup.unwashedmeme.com/blog/2015/03/16/writing-saltstack-formulas/) - An overview on writing SaltStack formulas.
 <!--lint ignore awesome-list-item-->
 - [Salt Formulas](http://www.yet.org/2016/09/salt-formulas/) In-depth blogpost about Salt Formulas. :gem:
+
+## Extensions
+
+- [Salt Extensions](https://github.com/salt-extensions) - A central collection of extension repositories for `salt`.
 
 ## Cheat sheets
 
